@@ -154,7 +154,6 @@ pyinstaller
 This project uses Graphviz for graph rendering.
 For the Windows executable, this project distributes Graphviz binaries.
 Graphviz is licensed under the **Common Public License Version 1.0 (CPL-1.0)**.
-A copy of the license is included in:
-Graphviz © AT&T Research and contributors.  
 For more information, see:  
+Graphviz © AT&T Research and contributors.  
 https://graphviz.org/license/
