@@ -14,18 +14,21 @@ CATEGORY_COLORS = {
 
 # Global graph attributes
 GRAPH_ATTRS = {
-    "rankdir": "LR",
+    "rankdir": "TB",
+    "fontsize": "12",
+    "dpi": 280
 }
 
 # Default node attributes
 NODE_ATTRS = {
     "shape": "box",
-    "fontname": "Noto Sans CJK TC",
+    "fontname": "PingFang TC",
 }
 
 # Default edge attributes
 EDGE_ATTRS = {
-    "fontname": "Noto Sans CJK TC",
+    "fontname": "PingFang TC",
+    "arrowhead": "open",
 }
 
 
