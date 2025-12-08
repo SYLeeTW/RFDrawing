@@ -1,7 +1,7 @@
 digraph G {
-    graph [rankdir="LR"];
-    node [shape="box" fontname="Noto Sans CJK TC"];
-    edge [fontname="Noto Sans CJK TC"];
+    graph [rankdir="TB" fontsize="12" dpi="280"];
+    node [shape="box" fontname="PingFang TC"];
+    edge [fontname="PingFang TC" arrowhead="open"];
     rain650 [label="強降雨650mm/24hr" style="filled" fillcolor="#AECBFA"];
     expo_infra [label="基礎設施數量" style="filled" fillcolor="#FFE9A9"];
     expo_pop [label="人口數" style="filled" fillcolor="#FFE9A9"];
@@ -45,13 +45,13 @@ digraph G {
     drain_std [label="排水防洪防護標準" style="filled" fillcolor="#B7F0C0"];
     drain_capacity [label="區域排水能力" style="filled" fillcolor="#B7F0C0"];
     flood_potential [label="淹水潛勢" style="filled" fillcolor="#B7F0C0"];
-    risk_flood_direct [label="（淹水）直接損失（生命、財產）" style="filled" fillcolor="#FFCDD2"];
-    risk_flood_health [label="（淹水）公衛風險" style="filled" fillcolor="#FFCDD2"];
-    risk_water_industry [label="（供水）產業損失" style="filled" fillcolor="#FFCDD2"];
-    risk_power_industry [label="（供電）產業損失" style="filled" fillcolor="#FFCDD2"];
-    risk_power_critical [label="（供電）重要維生設施停擺損失" style="filled" fillcolor="#FFCDD2"];
-    risk_tr_delay [label="（交通）救災延遲損失" style="filled" fillcolor="#FFCDD2"];
-    risk_tr_damage [label="（交通）路、橋損毀損失" style="filled" fillcolor="#FFCDD2"];
+    risk_flood_direct [label="(淹水)直接損失(生命、財產)" style="filled" fillcolor="#FFCDD2"];
+    risk_flood_health [label="(淹水)公衛風險" style="filled" fillcolor="#FFCDD2"];
+    risk_water_industry [label="(供水)產業損失" style="filled" fillcolor="#FFCDD2"];
+    risk_power_industry [label="(供電)產業損失" style="filled" fillcolor="#FFCDD2"];
+    risk_power_critical [label="(供電)重要維生設施停擺損失" style="filled" fillcolor="#FFCDD2"];
+    risk_tr_delay [label="(交通)救災延遲損失" style="filled" fillcolor="#FFCDD2"];
+    risk_tr_damage [label="(交通)路、橋損毀損失" style="filled" fillcolor="#FFCDD2"];
     rain650 -> upstream_collapse;
     rain650 -> river_fast;
     rain650 -> river_high;
