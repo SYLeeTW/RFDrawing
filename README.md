@@ -41,7 +41,7 @@ RFDrawing/
 
 ## macOS
 
-macOS 版需要系統已安裝 Graphviz：
+macOS 版需要系統已安裝 Graphviz (需先安裝Homebrew: https://docs.brew.sh/Installation)：
 
 ```bash
 brew install graphviz
