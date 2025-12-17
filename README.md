@@ -134,6 +134,7 @@ Example 資料夾包含：
 - Flood_Risk_Template.xlsx
 - Flood_Risk_Template.dot
 - Flood_Risk_Template.png
+![image](https://github.com/SYLeeTW/RFDrawing/blob/main/Example/Flood_Risk_Template.png)
 
 ---
 
